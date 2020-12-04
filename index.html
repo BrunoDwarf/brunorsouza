@@ -2,30 +2,45 @@
 <html lang="pt-br" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
     <title>Bruno Rodrigues Souza Website</title>
+
   </head>
   <body>
     <header>
-      <!--Título-->
-      <h1>Bruno Rodrigues Souza</h1>
-      <h2>Graduando em Sistemas de Informação</h2>
-      <!--Menu-->
-      <nav>
-        <menu>
-          <ul>
-            <a href="index.html">Principal</a>
-            <a href="html/curriculo.html">Currículo</a>
-            <a href="html/sobre.html">Sobre</a>
-          </ul>
-        </menu>
+      <div class="jumbotron">
+        <!--Título-->
+        <h1>Bruno Rodrigues Souza</h1>
+        <h2>Graduando em Sistemas de Informação</h2>
+        <!--Menu-->
+      </div>
+      <nav class="nav">
+        <a class="nav-link active" href="index.html">Principal</a>
+        <a class="nav-link" href="html/sobre.html">Sobre Mim</a>
+        <a class="nav-link" href="html/curriculo.html">Currículo</a>
+        <a class="nav-link" href="html/portifolio.html">Portifolio</a>
+        <a class="nav-link" href="html/contato.html">Contato</a>
       </nav>
       <hr>
     </header>
-    <h1>Pagina Principal</h1>
+    <div class="container">
+      <h1>Pagina Principal</h1>
+
+      <picture>
+        <img src="assets/eu1.jpeg" class="rounded mx-auto d-block" alt="Eu 1" \>
+        <br>
+        <!-- <img src="assets/eu2.jpeg" class="rounded mx-auto d-block" alt="Eu 2" \> -->
+      </picture>
+
+    </div>
 
     <hr>
     <footer>
-      Desenvolvido por: Bruno Rodrigues Souza.
+      <p>Desenvolvido por: Bruno Rodrigues Souza.</p>
     </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

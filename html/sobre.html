@@ -2,25 +2,29 @@
 <html lang="pt-br" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
     <title>Bruno Rodrigues Souza Website</title>
   </head>
   <body>
     <header>
-      <!--Título-->
-      <h1>Bruno Rodrigues Souza</h1>
-      <h2>Graduando em Sistemas de Informação</h2>
+      <div class="jumbotron">
+        <!--Título-->
+        <h1>Bruno Rodrigues Souza</h1>
+        <h2>Graduando em Sistemas de Informação</h2>
+      </div>
+
       <!--Menu-->
-      <nav>
-        <menu>
-          <ul>
-            <a href="../index.html">Principal</a>
-            <a href="curriculo.html">Currículo</a>
-            <a href="sobre.html">Sobre</a>
-          </ul>
-        </menu>
+      <nav class="nav">
+        <a class="nav-link" href="../index.html">Principal</a>
+        <a class="nav-link active" href="sobre.html">Sobre Mim</a>
+        <a class="nav-link" href="curriculo.html">Currículo</a>
+        <a class="nav-link" href="portifolio.html">Portifolio</a>
+        <a class="nav-link" href="contato.html">Contato</a>
       </nav>
       <hr>
     </header>
+    <div class="container">
     <h1>Sobre Mim</h1>
     <section>
       <p>Me chamo Bruno Rodrigues Souza, tenho 21 anos de idade, resido na cidade do Rio de Janeiro, nascido e
@@ -62,10 +66,12 @@
       <p>Vale complementar que dos 11 aos 18 anos, fiz um curso de Inglês na instituição Cultura Inglesa onde me formei e fui certificado com os
       nível de comunicação em Inglês Básico, Intermediário e Fluente. Conclui o curso no ano de 2018.</p>
     </section>
+    </div>
 
     <hr>
+
     <footer>
-      Desenvolvido por: Bruno Rodrigues Souza.
+      <p>Desenvolvido por: Bruno Rodrigues Souza.</p>
     </footer>
   </body>
 </html>
