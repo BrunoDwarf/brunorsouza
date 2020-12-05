@@ -5,27 +5,43 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
 
     <title>Bruno Rodrigues Souza Website</title>
-
   </head>
 
   <body>
-
     <header>
-      <div class="jumbotron">
-        <!--Título-->
-        <h1>Bruno Rodrigues Souza</h1>
-        <h2>Graduando em Sistemas de Informação</h2>
+      <!--Título-->
+      <div class="jumbotron" style="margin-bottom:0">
+        <div class="media">
+          <img src="../assets/eu1.jpeg" alt="Bruno R. Souza - Eu" class="mr-3 mt-3 rounded-circle" style="width:130px;">
+
+          <div class="media-body">
+            <br>
+            <h1>Bruno Rodrigues Souza</h1>
+            <h2>Graduando em Sistemas de Informação</h2>
+          </div>
+        </div>
       </div>
 
       <!--Menu-->
-      <nav class="nav">
-        <a class="nav-link" href="../index.html">Principal</a>
-        <a class="nav-link" href="sobre.html">Sobre Mim</a>
-        <a class="nav-link" href="curriculo.html">Currículo</a>
-        <a class="nav-link active" href="portifolio.html">Portifolio</a>
-        <a class="nav-link" href="contato.html">Contato</a>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Principal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre.html">Sobre Mim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="curriculo.html">Currículo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="portifolio.html">Portifolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+        </ul>
       </nav>
-      <hr>
     </header>
 
     <div class="container">
@@ -67,9 +83,13 @@
 
     </div>
 
-    <hr>
     <footer>
-      Desenvolvido por: Bruno Rodrigues Souza.
+      <div class="jumbotron jumbotron-fluid text-center" style="margin-bottom:0">
+        <p><b>Power By: Bruno Rodrigues Souza.</b></p>
+      </div>
     </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
